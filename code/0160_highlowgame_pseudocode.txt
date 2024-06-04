@@ -1,0 +1,44 @@
+// High-Low Game - Pseudocode Only
+
+// External library dependencies
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+// SET UP CONSTANTS
+// Concept of TRUE = 1
+// Concept of FALSE = 0
+// Concept of the secret number not being set
+// Number of newlines needed to clear console
+
+int main() {
+	// DECLARE VARIABLES
+	// Integer Variable - secretNumber -  holds the secret number
+	// Integer Variable - currentGuess - holds the current guess
+	// Integer Variable - wasGuessed - controls guess loop (0 = False, 1 = True)
+	// Integer Variable - loop counter
+
+	// Display game instructions
+	
+	// Prompt the user for a secret number
+
+	// Clear the screen
+
+	// Assume the secret number wasn't guessed (set variables)
+
+	// LOOP - While the guess and the secret number don't match
+		// Prompt the user for a guess
+
+		// IF - The guess was incorrect
+			// IF - The guess was higher than the secret number
+				// Display HIGHER message
+
+			// ELSE - The guess was lower than the secret number
+				// Display LOWER message
+
+		// ELSE - The guess must be correct
+			// Display victory message
+			// SET 'wasGuessed' to TRUE and stop the looping
+
+	// Exit program
+}
