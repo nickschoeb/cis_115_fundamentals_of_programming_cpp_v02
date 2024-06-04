@@ -1,0 +1,30 @@
+// Vowel Tester - Pseudocode Only
+
+// External library dependencies
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+// SET UP CONSTANTS
+// Concept of TRUE = 1
+// Concept of FALSE = 0
+// Concept of input character not being set
+
+int main() {
+	// DECLARE VARIABLES
+	// Character Variable - inputSymbol - holds the character being tested
+
+	// Prompt the user for a single character, 'inputSymbol'
+
+	// IF - this is not a letter at all
+		// Display 'This isn't a letter' message
+	
+	// ELSE - this must be a letter
+		// IF - the letter is a VOWEL
+			// Display 'This is a VOWEL' message
+		
+		// ELSE - it must be a CONSONANT
+			// Display 'This is a CONSONANT' message
+
+	// Exit program
+}
